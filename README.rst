@@ -55,7 +55,6 @@ Then, in a Python shell
 
     # Wrap an Objective C class contained in the framework
     >>> NSURL = ObjCClass("NSURL")
-    >>> NSObject = ObjCClass("NSObject")
 
     # Then instantiate the Objective C class, using the API
     # that is exposed through Objective C. The Python method name
